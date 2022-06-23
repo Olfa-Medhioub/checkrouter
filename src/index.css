@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.search > input[type="text"]{
+  width: 40%;
+  min-width: 170px;
+}
+.hed{
+  display: flex;
+  justify-content:center;}
+
+.home{
+  display: flex;
+  justify-content:center;
+}
+.Mov{
+  color : orange;
+  text-decoration: underline;
+  margin-left: 30px;
+}
+.List{
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+}
+.imgRad{  
+  border-radius: 10px;
+  width: 200px;
+  height: 250px;
+}
+.Search{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.Descrip{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+p {
+  color: #555151;
+  text-align: justify;
+}
+
+.fa-trash{
+  color: darkgray;
+}
+
+.fa-trash:hover{
+  color: red;
+}
+
+.fa-plus{
+  color : green
+}
+
+.fa-plus:hover{
+  color: orange
+}
+
+.fa-pen-to-square{
+  color: darkgray;
+}
+
+.fa-pen-to-square:hover{
+  color: red; 
+}
